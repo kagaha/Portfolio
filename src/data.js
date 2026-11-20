@@ -154,6 +154,25 @@ export const projects = [
     github: "",
   },
   {
+    title: "Document Q&A with RAG",
+    tag: "Personal project · Web app + CLI · Nov 2026",
+    description:
+      "A Retrieval-Augmented Generation app that answers questions only from your own documents. Add your Gemini API key (masked, never stored), then upload or paste .txt documents and ask in a chat. Relevant passages are retrieved from a ChromaDB vector store using local BGE embeddings and passed to Gemini, and every answer shows its source passages with similarity scores plus the embedding model and LLM in use. Follow-up questions are rewritten into standalone queries using the conversation, and each upload is isolated in its own in-memory session. Built with a FastAPI backend and a React (Vite) frontend, and also available as command-line scripts that share one ingestion pipeline. Runs locally; setup steps are in the README.",
+    stack: [
+      "Python (Basics)",
+      "FastAPI",
+      "React.js",
+      "Vite",
+      "LangChain",
+      "ChromaDB",
+      "BGE Embeddings",
+      "Gemini API",
+    ],
+    image: "/projects/basic-rag.png",
+    live: "",
+    github: "https://github.com/kagaha/basic-rag",
+  },
+  {
     title: "Flipkart Clone",
     tag: "Full-stack e-commerce",
     description:

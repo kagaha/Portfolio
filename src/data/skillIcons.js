@@ -8,6 +8,8 @@ export const skillIcons = {
   "Java 21": i("java"),
   JavaScript: i("javascript"),
   TypeScript: i("typescript"),
+  "Python": i("python"),
+  FastAPI: i("fastapi"),
   "Spring Boot 3.x": i("spring"),
   "Spring Security": i("spring"),
   "Spring Data JPA": i("spring"),
